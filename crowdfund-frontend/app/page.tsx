@@ -1,9 +1,8 @@
-import React from 'react'
-
-const Home = () => {
+export default function HomePage() {
   return (
-    <div>Home</div>
-  )
+    <div className="p-8">
+      <h1>Welcome to My Project</h1>
+      <p>This is the homepage content.</p>
+    </div>
+  );
 }
-
-export default Home
